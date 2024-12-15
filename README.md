@@ -43,7 +43,6 @@ This repository contains a collection of **Data Structures and Algorithms (DSA)*
 - 📧 **Email**: [ajaygupta230085@gmail.com](mailto:ajaygupta230085@gmail.com)
 - 💼 **LinkedIn**: [Ajay Gupta](https://www.linkedin.com/in/ajay-gupta-304962208)
 - 🌟 **GitHub**: [Ajay](https://github.com/shivoham8)
-- 📸 **Instagram**: [_.thisisinvincible._](https://www.instagram.com/_.thisisinvincible._)
 
 ---
 
