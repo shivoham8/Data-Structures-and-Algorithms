@@ -5,28 +5,22 @@ using namespace std;
 
 int smallestElement(int n, int arr[])
 {
-    int min = arr[0];
-    for (int i = 1; i < n; i++)
+    int smallest = INT_MAX;
+    for (int i = 0; i < n; i++)
     {
-        if (arr[i] < min)
-        {
-            min = arr[i];
-        }
+        smallest = min(arr[i], smallest);
     }
-    return min;
+    return smallest;
 }
 
 int largestElement(int n, int arr[])
 {
-    int max = arr[0];
-    for (int i = 1; i < n; i++)
+    int largest = INT_MIN;
+    for (int i = 0; i < n; i++)
     {
-        if (arr[i] > max)
-        {
-            max = arr[i];
-        }
+        largest = max(arr[i], largest); 
     }
-    return max;
+    return largest;
 }
 
 int main()
