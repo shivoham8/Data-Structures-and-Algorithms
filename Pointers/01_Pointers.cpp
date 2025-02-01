@@ -17,5 +17,9 @@ int main()
 
     int* ptr2 = NULL;
     cout << ptr2 << endl;
+
+    int arr[] = {1, 2, 3, 4, 5};
+    cout << arr << endl; // Prints memory address
+    cout << *arr << endl; // Prints value at index [0]
     return 0;
 }
